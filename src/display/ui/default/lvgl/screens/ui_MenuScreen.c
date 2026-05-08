@@ -90,14 +90,6 @@ void ui_MenuScreen_screen_init(void)
     lv_obj_set_x(ui_MenuScreen_dials, 0);
     lv_obj_set_y(ui_MenuScreen_dials, 0);
 
-    lv_obj_set_x(ui_comp_get_child(ui_MenuScreen_dials, UI_COMP_DIALS_TEMPTARGET), -224);
-    lv_obj_set_y(ui_comp_get_child(ui_MenuScreen_dials, UI_COMP_DIALS_TEMPTARGET), -16);
-    lv_img_set_angle(ui_comp_get_child(ui_MenuScreen_dials, UI_COMP_DIALS_TEMPTARGET), 0);
-
-    lv_obj_set_x(ui_comp_get_child(ui_MenuScreen_dials, UI_COMP_DIALS_PRESSURETARGET), 105);
-    lv_obj_set_y(ui_comp_get_child(ui_MenuScreen_dials, UI_COMP_DIALS_PRESSURETARGET), 196);
-    lv_img_set_angle(ui_comp_get_child(ui_MenuScreen_dials, UI_COMP_DIALS_PRESSURETARGET), -1240);
-
     ui_MenuScreen_standbyButton = lv_imgbtn_create(ui_MenuScreen);
     lv_imgbtn_set_src(ui_MenuScreen_standbyButton, LV_IMGBTN_STATE_RELEASED, NULL, &ui_img_2044104741, NULL);
     lv_obj_set_width(ui_MenuScreen_standbyButton, 40);

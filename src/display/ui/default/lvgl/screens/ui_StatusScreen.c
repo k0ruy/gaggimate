@@ -77,14 +77,6 @@ void ui_StatusScreen_screen_init(void)
     lv_obj_set_x(ui_StatusScreen_dials, 0);
     lv_obj_set_y(ui_StatusScreen_dials, 0);
 
-    lv_obj_set_x(ui_comp_get_child(ui_StatusScreen_dials, UI_COMP_DIALS_TEMPTARGET), -224);
-    lv_obj_set_y(ui_comp_get_child(ui_StatusScreen_dials, UI_COMP_DIALS_TEMPTARGET), -16);
-    lv_img_set_angle(ui_comp_get_child(ui_StatusScreen_dials, UI_COMP_DIALS_TEMPTARGET), 0);
-
-    lv_obj_set_x(ui_comp_get_child(ui_StatusScreen_dials, UI_COMP_DIALS_PRESSURETARGET), 105);
-    lv_obj_set_y(ui_comp_get_child(ui_StatusScreen_dials, UI_COMP_DIALS_PRESSURETARGET), 196);
-    lv_img_set_angle(ui_comp_get_child(ui_StatusScreen_dials, UI_COMP_DIALS_PRESSURETARGET), -1240);
-
     ui_StatusScreen_ImgButton8 = lv_imgbtn_create(ui_StatusScreen);
     lv_imgbtn_set_src(ui_StatusScreen_ImgButton8, LV_IMGBTN_STATE_RELEASED, NULL, &ui_img_295763949, NULL);
     lv_obj_set_width(ui_StatusScreen_ImgButton8, 40);

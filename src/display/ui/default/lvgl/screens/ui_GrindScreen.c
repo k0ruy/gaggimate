@@ -103,14 +103,6 @@ void ui_GrindScreen_screen_init(void)
     lv_obj_set_x(ui_GrindScreen_dials, 0);
     lv_obj_set_y(ui_GrindScreen_dials, 0);
 
-    lv_obj_set_x(ui_comp_get_child(ui_GrindScreen_dials, UI_COMP_DIALS_TEMPTARGET), -224);
-    lv_obj_set_y(ui_comp_get_child(ui_GrindScreen_dials, UI_COMP_DIALS_TEMPTARGET), -16);
-    lv_img_set_angle(ui_comp_get_child(ui_GrindScreen_dials, UI_COMP_DIALS_TEMPTARGET), 0);
-
-    lv_obj_set_x(ui_comp_get_child(ui_GrindScreen_dials, UI_COMP_DIALS_PRESSURETARGET), 105);
-    lv_obj_set_y(ui_comp_get_child(ui_GrindScreen_dials, UI_COMP_DIALS_PRESSURETARGET), 196);
-    lv_img_set_angle(ui_comp_get_child(ui_GrindScreen_dials, UI_COMP_DIALS_PRESSURETARGET), -1240);
-
     ui_GrindScreen_ImgButton2 = lv_imgbtn_create(ui_GrindScreen);
     lv_imgbtn_set_src(ui_GrindScreen_ImgButton2, LV_IMGBTN_STATE_RELEASED, NULL, &ui_img_295763949, NULL);
     lv_obj_set_width(ui_GrindScreen_ImgButton2, 40);
