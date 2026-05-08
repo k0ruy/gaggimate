@@ -1,6 +1,6 @@
 {
-    "uiExportFolderPath": "/Users/jniebuhr/work/3d/projects/paros-control/src/display/ui/default/lvgl",
-    "projectExportFolderPath": "/Users/jniebuhr/work/3d/projects/paros-control",
+    "uiExportFolderPath": "/home/ko4/GITHUB_REPOS/gaggimate/src/display/ui/default/lvgl",
+    "projectExportFolderPath": "/home/ko4/GITHUB_REPOS/gaggimate/src/display/ui/default/lvgl",
     "drive_stdio": "-",
     "drive_stdio_path": "",
     "drive_posix": "-",
